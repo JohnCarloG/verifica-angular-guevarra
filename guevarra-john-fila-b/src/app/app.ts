@@ -11,4 +11,5 @@ import { FourthComponent } from './fourth-component/fourth-component';
 })
 export class App {
   protected readonly title = signal('guevarra-john-fila-b');
+  john = "app"
 }
