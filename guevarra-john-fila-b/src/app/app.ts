@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { SecondComponent } from './second-component/second-component';
+import { ThirdComponent } from './third-component/third-component';
+import { FourthComponent } from './fourth-component/fourth-component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [SecondComponent, ThirdComponent, FourthComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
